@@ -2,8 +2,9 @@ import logging
 from Utilities.LogUtil import Logger
 from Utilities import configReader
 
-
 log = Logger(__name__, logging.INFO)
+
+
 class BasePage:
 
     def __init__(self, driver):
@@ -15,3 +16,5 @@ class BasePage:
 
         elif str(locator).endswith('id'):
             self.driver.find_element_by_id(configReader.readConfig("locators", locator)).click()
+
+        log.logger.info("Clicking on element: ", str(locator))
