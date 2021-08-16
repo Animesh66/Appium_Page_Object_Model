@@ -6,10 +6,10 @@ class TestHomeScreen(TestBasePage):
         super().__init__(driver)
 
     def go_to_hotels(self):
-        pass
+        self.click("hotels_xpath")
 
     def go_to_villas(self):
-        pass
+        self.click("villa_xpath")
 
     def got_to_trains(self):
         pass
