@@ -17,4 +17,13 @@ class test_BasePage:
         elif str(locator).endswith('id'):
             self.driver.find_element_by_id(configReader.readConfig("locators", locator)).click()
 
-        log.logger.info("Clicking on element: ", str(locator))
+        log.logger.info("Clicking on the element: ", str(locator))
+
+    def type(self, locator, value):
+        if str(locator).endswith('xpath'):
+            self.driver.find_element_by_xpath(configReader.readConfig("locators", locator)).send_keys(value)
+
+        elif str(locator).endswith('id'):
+            self.driver.find_element_by_id(configReader.readConfig("locators", locator)).send_keys(value)
+
+        log.logger.info("Typing on the element: ", str(locator), " entered the value as: ", value)
