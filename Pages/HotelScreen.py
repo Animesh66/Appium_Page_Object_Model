@@ -1,12 +1,12 @@
-from Pages.test_BasePage import TestBasePage
+from Pages.BasePage import BasePage
 
 
-class TestHotelScreen(TestBasePage):
+class HotelScreen(BasePage):
 
     def __init__(self, driver):
         super().__init__(driver)
 
-    def test_search_hotels(self, city):
+    def search_hotels(self, city):
         self.click("search_button_xpath")
         self.click("search_anywhere_xpath")
         self.type("search_box_id", "Delhi")

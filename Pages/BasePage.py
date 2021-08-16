@@ -5,7 +5,7 @@ from Utilities import configReader
 log = Logger(__name__, logging.INFO)
 
 
-class TestBasePage:
+class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
