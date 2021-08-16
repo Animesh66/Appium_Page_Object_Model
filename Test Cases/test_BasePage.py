@@ -26,7 +26,7 @@ class test_BasePage:
         elif str(locator).endswith('id'):
             self.driver.find_element_by_id(configReader.readConfig("locators", locator))[index].click()
 
-        log.logger.info("Clicking on the element: ", str(locator))
+        log.logger.info("Clicking on the element: ", str(locator), " with index ", str(index))
 
     def type(self, locator, value):
         if str(locator).endswith('xpath'):
