@@ -1,3 +1,5 @@
+import time
+
 from BaseTest import BaseTest
 import pytest
 
@@ -11,5 +13,6 @@ class Test_SearchHotels(BaseTest):
     def test_search_hotels(self, city):
         home_screen = HomeScreen(self.driver)
         home_screen.go_to_hotels()
+        time.sleep(3)
         home_screen.go_to_hotels().search_hotels(city)  # this is method chaining
 
