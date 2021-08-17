@@ -9,6 +9,6 @@ class HotelScreen(BasePage):
     def search_hotels(self, city):
         self.click("search_anywhere_xpath")
         self.type("search_box_id", city)
-        self.click_index("com.goibibo:id/lytLocationItem",0)
+        self.click_index("seach_result_id",0)
         self.click("search_button_xpath")
 
