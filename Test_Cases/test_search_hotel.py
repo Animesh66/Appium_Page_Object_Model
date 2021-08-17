@@ -1,4 +1,3 @@
-import time
 from Test_Cases.BaseTest import BaseTest
 import pytest
 from Pages.HomeScreens import HomeScreen
