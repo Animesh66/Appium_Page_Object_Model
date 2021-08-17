@@ -17,7 +17,7 @@ class BasePage:
         elif str(locator).endswith('id'):
             self.driver.find_element_by_id(configReader.readConfig("locators", locator)).click()
 
-        log.logger.info("Clicking on the element: ", str(locator))
+        #log.logger.info("Clicking on the element: " + str(locator))
 
     def click_index(self, locator, index):
         if str(locator).endswith('xpath'):
@@ -26,7 +26,7 @@ class BasePage:
         elif str(locator).endswith('id'):
             self.driver.find_element_by_id(configReader.readConfig("locators", locator))[index].click()
 
-        log.logger.info("Clicking on the element: ", str(locator), " with index ", str(index))
+        #log.logger.info("Clicking on the element: " + str(locator) + " with index " + str(index))
 
     def type(self, locator, value):
         if str(locator).endswith('xpath'):
@@ -35,7 +35,7 @@ class BasePage:
         elif str(locator).endswith('id'):
             self.driver.find_element_by_id(configReader.readConfig("locators", locator)).send_keys(value)
 
-        log.logger.info("Typing on the element: ", str(locator), " entered the value as: ", value)
+        #log.logger.info("Typing on the element: " + str(locator) + " entered the value as: " + str(value))
 
     def get_text(self, locator):
         if str(locator).endswith('xpath'):
@@ -44,5 +44,5 @@ class BasePage:
         elif str(locator).endswith('id'):
             text = self.driver.find_element_by_id(configReader.readConfig("locators", locator)).text
 
-        log.logger.info("Getting text from an element: ", str(locator))
+        #log.logger.info("Getting text from an element: " + str(locator))
         return text
