@@ -1,5 +1,5 @@
 import time
-from BaseTest import BaseTest
+from Test_Cases.BaseTest import BaseTest
 import pytest
 from Pages.HomeScreens import HomeScreen
 from Utilities import dataProvider
