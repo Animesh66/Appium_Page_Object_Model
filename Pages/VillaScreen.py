@@ -1,6 +1,6 @@
 from Pages.BasePage import BasePage
-from Utilities.scroll_util import ScrollUtil
-from Utilities import configReader
+
+
 
 
 class VillaScreen(BasePage):
@@ -16,4 +16,4 @@ class VillaScreen(BasePage):
         self.click("calender_end_date_xpath")
         self.click("continue_button_xpath")
         self.click("view_stays_xpath")
-        self.scrollToTextByAndroidUIAutomator(configReader.readConfig("search_text", "searched_hotel_text"), self.driver)
+
