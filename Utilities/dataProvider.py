@@ -2,7 +2,7 @@ import openpyxl
 
 
 def get_data(sheetName):
-    workbook = openpyxl.load_workbook("..//excel//testdata.xlsx")
+    workbook = openpyxl.load_workbook("/Users/animeshmukherjee/PycharmProjects/pythonProject/Appium_Page_Object_Model/Excel/appium_data.xlsx")
     sheet = workbook[sheetName]
     totalrows = sheet.max_row
     totalcols = sheet.max_column
