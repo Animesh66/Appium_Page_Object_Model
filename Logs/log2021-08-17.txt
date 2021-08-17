@@ -1,0 +1,10 @@
+2021-08-17 15:57:29,512 - BasePage.py:[20] - [INFO] - Clicking on the element: hotels_xpath
+2021-08-17 15:57:34,104 - BasePage.py:[20] - [INFO] - Clicking on the element: search_anywhere_xpath
+2021-08-17 15:57:35,750 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: ['Delhi']
+2021-08-17 15:57:37,086 - BasePage.py:[29] - [INFO] - Clicking on the element: seach_result_id with index 0
+2021-08-17 15:57:39,648 - BasePage.py:[20] - [INFO] - Clicking on the element: search_button_xpath
+2021-08-17 15:57:48,542 - BasePage.py:[20] - [INFO] - Clicking on the element: hotels_xpath
+2021-08-17 15:57:52,822 - BasePage.py:[20] - [INFO] - Clicking on the element: search_anywhere_xpath
+2021-08-17 15:57:55,387 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: ['Dubai']
+2021-08-17 15:57:57,709 - BasePage.py:[29] - [INFO] - Clicking on the element: seach_result_id with index 0
+2021-08-17 15:58:00,140 - BasePage.py:[20] - [INFO] - Clicking on the element: search_button_xpath
