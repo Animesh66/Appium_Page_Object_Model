@@ -110,3 +110,51 @@
 2021-08-17 17:17:00,575 - BasePage.py:[20] - [INFO] - Clicking on the element: calender_end_date_xpath
 2021-08-17 17:17:01,973 - BasePage.py:[20] - [INFO] - Clicking on the element: continue_button_xpath
 2021-08-17 17:17:02,768 - BasePage.py:[20] - [INFO] - Clicking on the element: view_stays_xpath
+2021-08-17 17:27:41,122 - BasePage.py:[20] - [INFO] - Clicking on the element: hotels_xpath
+2021-08-17 17:27:46,343 - BasePage.py:[20] - [INFO] - Clicking on the element: search_anywhere_xpath
+2021-08-17 17:27:48,867 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: ['Delhi']
+2021-08-17 17:27:51,407 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:27:53,778 - BasePage.py:[20] - [INFO] - Clicking on the element: search_button_xpath
+2021-08-17 17:28:04,512 - BasePage.py:[20] - [INFO] - Clicking on the element: hotels_xpath
+2021-08-17 17:28:09,043 - BasePage.py:[20] - [INFO] - Clicking on the element: search_anywhere_xpath
+2021-08-17 17:28:11,804 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: ['Dubai']
+2021-08-17 17:28:13,085 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:28:15,268 - BasePage.py:[20] - [INFO] - Clicking on the element: search_button_xpath
+2021-08-17 17:28:26,414 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_xpath
+2021-08-17 17:28:56,150 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_search_xpath
+2021-08-17 17:28:58,028 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: Delhi
+2021-08-17 17:28:59,318 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:29:01,885 - BasePage.py:[20] - [INFO] - Clicking on the element: calender_start_date_xpath
+2021-08-17 17:29:02,769 - BasePage.py:[20] - [INFO] - Clicking on the element: calender_end_date_xpath
+2021-08-17 17:29:04,034 - BasePage.py:[20] - [INFO] - Clicking on the element: continue_button_xpath
+2021-08-17 17:29:04,850 - BasePage.py:[20] - [INFO] - Clicking on the element: view_stays_xpath
+2021-08-17 17:29:34,184 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_xpath
+2021-08-17 17:29:37,758 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_search_xpath
+2021-08-17 17:29:40,324 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: Dubai
+2021-08-17 17:29:41,556 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:29:52,707 - BasePage.py:[20] - [INFO] - Clicking on the element: calender_start_date_xpath
+2021-08-17 17:29:54,224 - BasePage.py:[20] - [INFO] - Clicking on the element: calender_end_date_xpath
+2021-08-17 17:29:54,746 - BasePage.py:[20] - [INFO] - Clicking on the element: continue_button_xpath
+2021-08-17 17:29:55,646 - BasePage.py:[20] - [INFO] - Clicking on the element: view_stays_xpath
+2021-08-17 17:33:37,526 - BasePage.py:[20] - [INFO] - Clicking on the element: hotels_xpath
+2021-08-17 17:33:43,149 - BasePage.py:[20] - [INFO] - Clicking on the element: search_anywhere_xpath
+2021-08-17 17:33:44,804 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: ['Delhi']
+2021-08-17 17:33:47,472 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:33:50,067 - BasePage.py:[20] - [INFO] - Clicking on the element: search_button_xpath
+2021-08-17 17:34:02,117 - BasePage.py:[20] - [INFO] - Clicking on the element: hotels_xpath
+2021-08-17 17:34:08,258 - BasePage.py:[20] - [INFO] - Clicking on the element: search_anywhere_xpath
+2021-08-17 17:34:10,812 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: ['Dubai']
+2021-08-17 17:34:12,119 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:34:15,349 - BasePage.py:[20] - [INFO] - Clicking on the element: search_button_xpath
+2021-08-17 17:34:26,565 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_xpath
+2021-08-17 17:34:44,799 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_search_xpath
+2021-08-17 17:34:47,270 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: Delhi
+2021-08-17 17:34:50,399 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:35:10,944 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_xpath
+2021-08-17 17:35:35,904 - BasePage.py:[20] - [INFO] - Clicking on the element: villa_search_xpath
+2021-08-17 17:35:36,811 - BasePage.py:[38] - [INFO] - Typing on the element: search_box_id entered the value as: Dubai
+2021-08-17 17:35:43,118 - BasePage.py:[29] - [INFO] - Clicking on the element: search_result_id with index 0
+2021-08-17 17:35:46,132 - BasePage.py:[20] - [INFO] - Clicking on the element: calender_start_date_xpath
+2021-08-17 17:35:47,085 - BasePage.py:[20] - [INFO] - Clicking on the element: calender_end_date_xpath
+2021-08-17 17:35:48,759 - BasePage.py:[20] - [INFO] - Clicking on the element: continue_button_xpath
+2021-08-17 17:35:49,697 - BasePage.py:[20] - [INFO] - Clicking on the element: view_stays_xpath

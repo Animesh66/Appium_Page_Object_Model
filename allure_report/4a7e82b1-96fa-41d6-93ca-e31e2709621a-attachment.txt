@@ -1,0 +1,8 @@
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: villa_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: villa_search_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:38 Typing on the element: search_box_id entered the value as: Dubai
+[32mINFO    [0m Pages.BasePage:BasePage.py:29 Clicking on the element: search_result_id with index 0
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: calender_start_date_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: calender_end_date_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: continue_button_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: view_stays_xpath

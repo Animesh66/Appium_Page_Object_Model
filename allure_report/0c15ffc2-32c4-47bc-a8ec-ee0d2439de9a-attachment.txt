@@ -1,0 +1,5 @@
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: hotels_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: search_anywhere_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:38 Typing on the element: search_box_id entered the value as: ['Dubai']
+[32mINFO    [0m Pages.BasePage:BasePage.py:29 Clicking on the element: search_result_id with index 0
+[32mINFO    [0m Pages.BasePage:BasePage.py:20 Clicking on the element: search_button_xpath
