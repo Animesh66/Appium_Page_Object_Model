@@ -13,3 +13,4 @@ class Test_SearchVillas(BaseTest):
         home_screen = HomeScreen(self.driver)
         home_screen.go_to_villas().search_villa(city)  # this is method chaining
         ScrollUtil.scrollToTextByAndroidUIAutomator(villa, self.driver)  # search for a particular villa
+        time.sleep(3)
