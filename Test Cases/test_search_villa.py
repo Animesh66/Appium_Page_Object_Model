@@ -11,4 +11,5 @@ class Test_SearchVillas(BaseTest):
     def test_search_villas(self, city):
         home_screen = HomeScreen(self.driver)
         home_screen.go_to_villas().search_villa(city)  # this is method chaining
+        time.sleep(3)
 
