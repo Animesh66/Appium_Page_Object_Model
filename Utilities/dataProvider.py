@@ -6,7 +6,7 @@ def get_data(sheetName):
     sheet = workbook[sheetName]
     totalrows = sheet.max_row
     totalcols = sheet.max_column
-    print("total cols are ",str(totalcols))
+    print("total cols are ", str(totalcols))
     print("total rows are ", str(totalrows))
     mainList = []
 
